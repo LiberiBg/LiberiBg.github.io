@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<!-- Meta Data -->
+	<meta charset="UTF-8">
+	<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="author" content="LiberiBg" />
+	<meta name="description" content="Mathéo Nguyen - Étudiant en BUT Informatique 3ème année"> 
+	
+	<!-- Twitter Cards -->
+	<meta name="twitter:card" content="Mathéo Nguyen - Étudiant en BUT Informatique 3ème année">
+	<meta name="twitter:image" content="assets/img/logo/logo.png">
+	<meta name="twitter:title" content="Portfolio - Mathéo Nguyen">
+	
+	<!-- Title -->
+	<title>Mathéo Nguyen</title>
+
+	<!-- Favicons TODO-->
+	<link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
+	<link rel="manifest" href="assets/img/favicons/site.webmanifest">
+	<link rel="mask-icon" href="assets/img/favicons/safari-pinned-tab.svg" color="#5bbad5">
+
+	<!-- Styles -->
+	<link rel="stylesheet" type="text/css" href="assets/styles/style.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.0/css/all.min.css">
+</head>
+
+<body>
+	<!-- Preloader -->
+	<div class="preloader">
+		<div class="preloader__wrap">
+			<div class="circle-pulse">
+				<div class="circle-pulse__1"></div>
+				<div class="circle-pulse__2"></div>
+			</div>
+			<div class="preloader__progress"><span></span></div>
+		</div>
+	</div>
+
+	<main class="main">
+		<!-- Dark/Light Toggle -->
+		<div class="dark-light m-3">
+			<a href="assets/img/CV.pdf" target="_blank">
+				<button class="btn toggle-btn"><i class="fas fa-file pr-2"></i> Mon CV</button>
+			</a>			
+			<div class="btn-group" role="group">
+				<button data-toggle="tooltip" title="Switch to Light Mode" type="button" class="btn toggle-btn light"><i class="fas fa-sun"></i></button>
+				<button data-toggle="tooltip" title="Switch to Dark Mode" type="button" class="btn toggle-btn dark"><i class="fas fa-moon"></i></button>
+			</div>
+		</div>
+
+		<!-- Header Image -->
+		<div class="header-image">
+			<div class="js-parallax" style="background-image: url(assets/img/JetSetRadio.jpg);"></div>
+		</div>
+
+		<div class="container gutter-top">
+			<!-- Header -->
+			<header class="header box">
+				<div class="header__left">
+					<div class="header__photo">
+						<img class="header__photo-img" src="assets/img/logo/me.jpg" alt="Photo de Mathéo Nguyen">
+					</div>
+					<div class="header__base-info">
+						<h4 class="title titl--h4">Mathéo Nguyen</h4>
+						<div class="status">Étudiant en 3ème année de BUT Informatique</div>
+						<ul class="header__social">
+							<li><a target="_blank" href="https://linkedin.com/in/matheo-nguyen"><i class="fab fa-linkedin"></i></a></li>
+							<li><a target="_blank" href="https://github.com/LiberiBg"><i class="fab fa-github"></i></a></li>
+							<li><a target="_blank" href="https://shelter.moe/@Kappa"><i class="fab fa-mastodon"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="header__right">
+					<ul class="header__contact">
+						<li><span class="overhead">Email</span>manguyen@iut.univ-paris8.fr</li>
+						<li><span class="overhead">Localisation</span>Paris / Lyon</li>
+					</ul>
+				</div>
+			</header>
+			
+			<div class="row sticky-parent">
+				<!-- Sidebar nav -->
+				<aside class="col-12 col-md-12 col-lg-2">
+					<div class="sidebar box sticky-column">
+						<ul class="nav js-tabs">
+							<li class="nav__item"><a class="active" href="#about-tab"><i class="icon-user"></i>À propos</a></li>
+							<li class="nav__item"><a href="#resume-tab"><i class="icon-file-text"></i>CV</a></li>
+							<li class="nav__item"><a href="#works-tab"><i class="icon-book-open"></i>Personnel</a></li>
+							<li class="nav__item"><a href="#blog-tab"><i class="icon-briefcase"></i>Scolaire</a></li>
+							<li class="nav__item"><a href="#skills-tab"><i class="icon-loader"></i>Compétence</a></li>
+							<!-- <li class="nav__item"><a href="#contact-tab"><i class="icon-book"></i>Contact</a></li> -->
+						</ul>
+					</div>
+				</aside>
+
+				<!-- Content -->
+				<div class="col-12 col-md-12 col-lg-10">
+					<div class="box box-content mb-5" id="content">
+
+						<div class="content">
+							<!-- ABOUT -->
+							<div id="about-tab" class="tabcontent active">
+								<div class="pb-0 pb-sm-2">
+									<h1 class="title title--h1 first-title title__separate">À propos</h1>
+									<p> 
+										Je suis actuellement étudiant en 3ème année de <b>BUT Informatique</b> en parcours 
+										<b>Réalisation d'applications : Conception, Développement, Validation</b>
+										et alternant chez le Groupe La Poste en tant qu'<b>Automaticien-Testeur</b>.
+									</p>
+									<p>
+										J'aspire à pousser mes études jusqu'au bac+5 avec titre d'ingénieur et ce toujours 
+										en alternance afin de pouvoir continuer à acquérir des compétences variées ainsi que
+										de l'expérience profesionnelle.
+									</p>
+								</div>
+
+								<!-- What -->
+								<div class="mt-1">
+									<h2 class="title title--h3">Mes activités</h2>
+									<div class="row">
+										
+										<!-- Case Item -->
+										<div class="col-12 col-lg-6">
+											<div class="case-item">
+												<img class="case-item__icon"
+													src="assets/icons/linux.svg"
+													alt="" />
+												<div>
+													<h3 class="title title--h4">Open-Source</h3>
+													<p class="case-item__caption">
+														Passionné d'open source pour des raisons politiques,
+														de vie privée et techniques. 
+														Que ça soit concernant mon smartphone, mon ordinateur ou mes consoles,
+														je privilégie toujours les solutions open sources à celles provenant de GAFAM ou privées.
+														De plus je contribue à des projets open source lorsque j'en ai l'occasion.
+													</p>
+												</div>
+											</div>
+										</div>
+
+										<!-- Case Item -->
+										<div class="col-12 col-lg-6">
+											<div class="case-item">
+												<img class="case-item__icon"
+													src="assets/icons/gaming.svg"
+													alt="" />
+												<div>
+													<h3 class="title title--h4">Gaming</h3>
+													<p class="case-item__caption">
+														Amateur de jeux vidéo, j'éprouve un réel intérêt pour les jeux rétro. 
+														Cependant grâce à mon travail chez <b>Tomodachi</b> je suis à jour sur les actualités du monde du gaming
+														et je saisis l'opportunité de découvrir de nouvelles sorties lorsque j'ai le temps. ^^
+													</p>
+												</div>
+											</div>
+										</div>
+										
+										<!-- Case Item -->
+										<div class="col-12 col-lg-6">
+											<div class="case-item">
+												<img class="case-item__icon"
+													src="assets/icons/jailbreak.svg"
+													alt="" />
+												<div>
+													<h3 class="title title--h4">Jailbreak</h3>
+													<p class="case-item__caption">
+														Étant fan de consoles retro et partisan de l'open source, je porte un intérêt particulier à l'unviers du 
+														jailbreak. Cela me permet de reprendre le contrôle total d'appareils qui m'appartiennent, 
+														me donnant ainsi la possibilité de manipuler le système, d'installer des applications non officielles,
+														et d'explorer des systèmes d'exploitation alternatifs.
+													</p>
+												</div>
+											</div>
+										</div>
+
+										<!-- Case Item -->
+										<div class="col-12 col-lg-6">
+											<div class="case-item">
+												<img class="case-item__icon"
+													src="assets/icons/naruto.svg"
+													alt="" />
+												<div>
+													<h3 class="title title--h4">Manga</h3>
+													<p class="case-item__caption">
+														Étant fan de d'animés et de mangaas depuis la tendre enfance, je me suis naturellement tourné vers ce corps de métier. 
+														Ça fait maintenant depuis mars 2022 que j'ai intégré l'équipe de <b>Tomodachi</b> en tant que régisseur live et community manager.
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- RESUME -->
+							<div id="resume-tab" class="tabcontent">
+								<div class="pb-2">
+									<h1 class="title title--h1 first-title title__separate">CV</h1>
+								</div>
+
+								<!-- Experience -->
+								<div class="row">
+									<div class="col-12">
+										<h2 class="title title--h3"><img class="title-icon"
+												src="assets/icons/education.svg"
+												alt="" /> Formation</h2>
+										<div class="timeline">
+											<!-- Item -->
+											<article class="timeline__item">
+												<h5 class="title title--h5 timeline__title">IUT de Montreuil - Montreuil (93)</h5>
+												<span class="timeline__period">Sept 2021 — Maintenant</span> <br>
+												<span class="timeline__period"><b>BUT Informatique</b> (parcours réalisation d'applications)</span>
+												<p class="timeline__description">
+													Le BUT m'a offert en premier lieu d'une formation généraliste mais technique durant laquelle j'ai pu appréhender
+													et expérimenter plusieurs aspects de la programmation :
+													<ul>
+														<li>Le bas niveau.</li>
+															<span class="badge badge-primary">C</span>
+															<span class="badge badge-primary">Bash</span>
+														<li>Différents paradigmes de base de données.</li>
+															<span class="badge badge-primary">MySQL</span>
+															<span class="badge badge-primary">SQLite</span>
+															<span class="badge badge-primary">MongoDB</span>
+															<span class="badge badge-primary">PostgreSQL</span>
+															<span class="badge badge-primary">Neo4J</span>
+															<span class="badge badge-primary">Ontology</span>
+														<li>La conception Objet avancée.</li>
+															<span class="badge badge-primary">Design Pattern</span>
+														<li>Déploiement d'un réseau de machine.</li>
+													</ul>
+												</p>
+												<p class="timeline__description">
+													Cependant j'ai eu l'occasion de me spécialiser au cours de la 2ème année en choisissant
+													le parcours <b>Réalisation d'applications : Conception, Développement, Validation</b> durant lequel
+													j'ai pu assimiler et mettre en pratique :
+													<ul>
+														<li>L'étude de faisabilité d'un projet.</li>
+														<li>La conception d'architecture d'applications.</li>
+														<li>Écriture des tickets.</li>
+														<li>Le développement avancé avec des frameworks graphiques.</li>
+															<span class="badge badge-primary">Angular</span>
+															<span class="badge badge-primary">Symfony</span>
+															<span class="badge badge-primary">Bootstrap</span>
+															<span class="badge badge-primary">Tailwind</span>
+															<span class="badge badge-primary">Vue</span>
+														<li>La mise en place de mocks et de tests unitaires. </li>
+															<span class="badge badge-primary">UnitTest</span> 
+															<span class="badge badge-primary">Jasmine</span> 
+															<span class="badge badge-primary">JUnit</span>
+															<span class="badge badge-primary">Mockito</span>
+														<li>Le CI/CD. </li>
+															<span class="badge badge-primary">Docker</span> 
+															<span class="badge badge-primary">Github Actions</span>
+														<li>Les méthodes de gestion de la qualité.</li>
+															<span class="badge badge-primary">ESLint</span>
+															<span class="badge badge-primary">Prettier</span>
+															<span class="badge badge-primary">SonarQube</span>
+													</ul>
+												</p>
+											</article>
+
+											<!-- Item -->
+											<article class="timeline__item">
+												<h5 class="title title--h5 timeline__title"> Lycée Martinière Monplaisir - Lyon (69) </h5>
+												<span class="timeline__period">2018 — 2021</span><br>
+												<span class="timeline__period"><b>Baccalauréat STI2D</b> (Spécialisation : Systèmes Informatique et Numériques)</span>
+												<p class="timeline__description">
+													Voici quelques notions abordées durant mon cursus au lycée :
+													<ul>
+														<li>Architecture des Systèmes Informatiques.</li>
+														<li>Protocoles de communications.</li>
+														<li>Logique booléenne.</li>
+														<li>Logique de la programmation.</li>
+													</ul>
+												</p>
+											</article>
+										</div>
+									</div>
+									<div class="hr"></div>
+
+									<div class="col-12">
+										<h2 class="title title--h3"><img class="title-icon"
+												src="assets/icons/experience.svg"
+												alt="" /> Experience</h2>
+										<div class="timeline">
+											
+											<!-- Item -->
+											<article class="timeline__item">
+												<h5 class="title title--h5 timeline__title">Alternant Automaticien-Testeur</h5>
+												<span class="timeline__period">Septembre 2023 - Maintenant</span><br>
+												<span class="timeline__period">
+													Chez 
+													<a href="https://www.lapostegroupe.com/fr">
+														<b>Groupe La Poste</b>
+													</a> 
+												</span>
+												<br>
+												<span class="badge badge-primary">Python</span>
+												<span class="badge badge-primary">Robot Framework</span>
+												<span class="badge badge-primary">Jira</span>
+												<span class="badge badge-primary">Jenkins</span>
+												<span class="badge badge-primary">Teams</span>
+ 												<p class="timeline__description">
+													- Concevoir et réaliser des plans de tests fonctionnels et techniques des automates industriels.<br>
+													- Rédiger des scripts de tests automatisés (TNR).<br>
+													- Participation aux réunions avec les équipes de développeurs et les différents acteurs du projet.<br>
+													- Analyse des rapports de tests automatisés et génération de bilans de campagne de tests.<br>
+													- Rédaction de la documentation technique.<br>
+													- Relation avec les Product Owner.
+												</p>
+												
+											</article>
+											
+											<!-- Item -->
+											<article class="timeline__item">
+												<h5 class="title title--h5 timeline__title">Stagiaire Développeur d'applications PowerApps</h5>
+												<span class="timeline__period">Juillet 2023 — Décembre 2023</span><br>
+												<span class="timeline__period">
+													Chez 
+													<a href="https://www.lapostegroupe.com/fr">
+														<b>Groupe La Poste</b>
+													</a> 
+												</span>
+												<br>
+												<span class="badge badge-primary">PowerApps</span>
+												<span class="badge badge-primary">Jira</span>
+												<span class="badge badge-primary">Jenkins</span>
+												<span class="badge badge-primary">Teams</span>
+												<p class="timeline__description">
+													- Stage effectué dans le cadre de ma 2ème année de BUT Informatique. <br>
+													- Réalisation de tickets pour des applications internes à la DSI du groupe. <br>
+													- Développement d'une application en autonomie, actuellement en production. <br>
+													- Relation avec les product owner.
+												</p>
+											</article>
+										</div>
+
+											<hr>
+										<div class="timeline">
+											
+											<!-- Item -->
+											<article class="timeline__item">
+												<h5 class="title title--h5 timeline__title">Régisseur Live & Community Manager</h5>
+												<span class="timeline__period">Avril 2022 — Maintenant</span><br>
+												<span class="timeline__period">
+													Chez 
+													<a href="https://www.linkedin.com/showcase/tomodachifr/about/">
+														<b>Tomodachi_fr</b>
+													</a> 
+												</span>
+												<p class="timeline__description">
+													- Tomodachi est un média indépendant qui traite de mangas, animés, gaming, culture japonaise. <br>
+													- Membre polyvalent au sein du média.<br>
+													- Relais d'actualité sur les réseaux Twitter & Instagram <br>
+													- Régisseur live pendant 1 an.<br>
+												</p>
+											</article>
+
+											<!-- Item -->
+											<article class="timeline__item">
+												<h5 class="title title--h5 timeline__title">Coursier</h5>
+												<span class="timeline__period">Janvier 2022 - Mars 2022</span><br>
+												<span class="timeline__period">
+													Chez 
+													<a href="https://www.goflink.com/fr-FR/">
+														<b>Flink</b>
+													</a> 
+												</span>
+												<p class="timeline__description">
+													- Coursier à vélo électrique.<br>
+													- Assurer la livraison des commandes clients jusqu'à leurs domicile.<br>
+													- Assurer une bonne relation avec les clients.<br>
+												</p>
+											</article>
+
+											<!-- Item -->
+											<article class="timeline__item">
+												<h5 class="title title--h5 timeline__title">Vendeur</h5>
+												<span class="timeline__period">Novembre 2021 - Janvier 2022</span><br>
+												<span class="timeline__period">
+													Chez 
+													<a href="https://www.sizeofficial.fr/">
+														<b>Size?</b>
+													</a> 
+												</span>
+												<p class="timeline__description">
+													- Conseiller les clients.<br>
+													- Assurer une bonne relation avec les clients.<br>
+													- Assurer le réassort du magasin en continu.<br>
+													- Entrenir l'inventaire.<br>
+												</p>
+											</article>
+										</div>
+									</div>
+								</div>
+
+								<!-- Skills -->
+								<div class="row">
+									<div class="col-12">
+										<h2 class="title title--h3">Mes compétences</h2>
+										<div class="box box__border">
+											<!-- <div class="progress">
+												<div class="progress-bar" role="progressbar" aria-valuenow="95"
+													aria-valuemin="0" aria-valuemax="100">
+													<div class="progress-text"><span>Web Design</span><span>95%</span>
+													</div>
+												</div>
+												<div class="progress-text"><span>Web Design</span></div>
+											</div>
+
+											<div class="progress">
+												<div class="progress-bar" role="progressbar" aria-valuenow="95"
+													aria-valuemin="0" aria-valuemax="100">
+													<div class="progress-text"><span>Web Development</span><span>95%</span></div>
+												</div>
+												<div class="progress-text"><span>Web Development</span></div>
+											</div>
+
+											<div class="progress">
+												<div class="progress-bar" role="progressbar" aria-valuenow="80"
+													aria-valuemin="0" aria-valuemax="100">
+													<div class="progress-text"><span>Mobile Apps Development</span><span>80%</span>
+													</div>
+												</div>
+												<div class="progress-text"><span>Mobile Apps Development</span></div>
+											</div> -->
+											<div>
+												<span class="badge badge-primary">Arch Linux</span>
+												<span class="badge badge-primary">NeoVim</span>
+												<span class="badge badge-primary">Eclipse</span>
+												<span class="badge badge-primary">Android Studio</span>
+												<span class="badge badge-primary">Arduino IDE</span>
+												<span class="badge badge-primary">Java</span>
+												<span class="badge badge-primary">Python</span>
+												<span class="badge badge-primary">Bash</span>
+												<span class="badge badge-primary">Lua</span>
+												<span class="badge badge-primary">Docker</span>
+												<span class="badge badge-primary">Nginx</span>
+												<span class="badge badge-primary">HTML</span>
+												<span class="badge badge-primary">CSS</span>
+												<span class="badge badge-primary">Javascript</span>
+												<span class="badge badge-primary">PHP</span>
+												<span class="badge badge-primary">MongoDB</span>
+												<span class="badge badge-primary">MySQL</span>
+												<span class="badge badge-primary">Postgres</span>
+												<span class="badge badge-primary">Sqlite</span>
+												<span class="badge badge-primary">Angular</span>
+												<span class="badge badge-primary">Bootstrap</span>
+												<span class="badge badge-primary">CI-CD</span>
+												<span class="badge badge-primary">Windows</span>
+												<span class="badge badge-primary">Linux</span>
+												<span class="badge badge-primary">MacOS</span>
+												<span class="badge badge-primary">VS Code</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- WORKS -->
+							<div id="works-tab" class="tabcontent">
+								<div class="pb-2">
+									<h1 class="title title--h1 first-title title__separate">Projets personnels</h1>
+								</div>
+
+								<!-- Filter -->
+								<div class="select">
+									<span class="placeholder">Select category</span>
+									<ul class="filter">
+										<li class="filter__item">Category</li>
+										<li class="filter__item active" data-filter="*"><a class="filter__link active"
+												href="#filter">Tout</a></li>
+										<li class="filter__item" data-filter=".jailbreak"><a class="filter__link"
+												href="#filter">Jailbreak</a></li>
+										<li class="filter__item" data-filter=".homeserver"><a class="filter__link"
+												href="#filter">Home Server</a></li>
+										<li class="filter__item" data-filter=".custom-devices"><a class="filter__link"
+												href="#filter">Custom devices</a></li>
+									</ul>
+									<input type="hidden" name="changemetoo" />
+								</div>
+
+								<!-- Gallery -->
+								<div class="gallery-grid js-grid-row js-filter-container">
+									<div class="gutter-sizer"></div>
+									<!-- Item 1 -->
+									<figure class="gallery-grid__item custom-devices">
+										<div class="gallery-grid__image-wrap">
+											<img class="gallery-grid__image cover lazyload"
+												src="assets/img/archlinux.png"/>
+										</div>
+										<figcaption class="gallery-grid__caption">
+											<a href="https://github.com/LiberiBg/Dotfiles">
+												<h4 class="title title--h6 gallery-grid__title">Arch Linux</h4>
+											</a>
+											<span class="gallery-grid__category">Custom devices</span>
+										</figcaption>
+									</figure>
+									<!-- Item 2 -->
+									<figure class="gallery-grid__item custom-devices jailbreak">
+										<div class="gallery-grid__image-wrap">
+											<img class="gallery-grid__image cover lazyload"
+												src="assets/img/grepheneOS.jpg"/>
+										</div>
+										<figcaption class="gallery-grid__caption">
+											<a href="#TODO">
+												<h4 class="title title--h6 gallery-grid__title">GrapheneOS</h4>
+											</a>
+											<span class="gallery-grid__category">Custom devices</span>
+										</figcaption>
+									</figure>
+									<!-- Item 3 -->
+									<figure class="gallery-grid__item jailbreak">
+										<div class="gallery-grid__image-wrap">
+											<img class="gallery-grid__image cover lazyload"
+												src="assets/img/pkgi.png"/>
+										</div>
+										<figcaption class="gallery-grid__caption">
+											<a href="https://github.com/LiberiBg/PKGi-cleanedDB">
+												<h4 class="title title--h6 gallery-grid__title">PKGI-cleanedDB</h4>
+											</a>
+											<span class="gallery-grid__category">Jailbreak - Custom devices</span>
+										</figcaption>
+									</figure>
+								</div>
+								<!-- Gallery End -->
+							</div>
+
+							<!-- BLOG -->
+							<div id="blog-tab" class="tabcontent">
+								<div class="pb-2">
+									<h1 class="title title--h1 first-title title__separate">Projets scolaires</h1>
+								</div>
+
+								<!-- News -->
+								<div class="news-grid">
+
+									<!-- Post -->
+									<article class="news-item box">
+										<div class="news-item__image-wrap overlay overlay--45">
+											<div class="news-item__date">Septembre<span>2023</span></div>
+											<a class="news-item__link" target="_blank" href="https://github.com/DUT-Info-Montreuil/SAE-5.A-carmate"></a>
+											<img class="cover lazyload" src="assets/img/carmate.png" alt="Image d'illustration de CarMate" />
+										</div>
+										<div class="news-item__caption">
+											<h2 class="title title--h4">CarMate</h2>
+											<p>
+											<b>CarMate</b> est le plus gros projet de 3ème année de BUT info,
+											il s'agit d'un produit commandé par l'IUT de Tremblay-en-France qui souffre d'isolation géographique.
+											CarMate est une application Web qui permet de mettre en relation des étudiants conducteurs et passagers
+											afin de faciliter les trajets quotidiens.
+											</p>
+											<span class="badge badge-primary">Angular</span>
+											<span class="badge badge-primary">TypeScript</span>
+											<span class="badge badge-primary">Flask</span>
+											<span class="badge badge-primary">Python</span>
+											<span class="badge badge-primary">Tailwind</span>
+											<span class="badge badge-primary">Docker</span>
+											<span class="badge badge-primary">Github Actions</span>
+											<span class="badge badge-primary">ESLint</span>
+											<span class="badge badge-primary">Prettier</span>
+											<span class="badge badge-primary">VS Code</span>
+										</div>
+									</article>
+
+									<!-- Post -->
+									<article class="news-item box">
+										<div class="news-item__image-wrap overlay overlay--45">
+											<div class="news-item__date">Septembre<span>2022</span></div>
+											<a class="news-item__link" target="_blank" href="https://github.com/DUT-Info-Montreuil/Apres_La_Pluie"></a>
+											<img class="cover lazyload" src="assets/img/ApresLaPluie.png" alt="Image d'illustration de Après La Pluie" />
+										</div>
+										<div class="news-item__caption">
+											<h2 class="title title--h4">Après La Pluie</h2>
+											<p>
+											<b>Après La Pluie</b> ou le premier gros projet Web a eu lieu en début de 2ème année de BUT info,
+												Il s'agit dréalisé pour un client réel qui souhaitait promouvoir ses services de réalisation de 
+												clip tout en permettant la réservation de ces derniers.
+											</p>
+											<span class="badge badge-primary">PHP</span>
+											<span class="badge badge-primary">MVC</span>
+											<span class="badge badge-primary">PGPMyAdmin</span>
+											<span class="badge badge-primary">Trello</span>
+											<span class="badge badge-primary">Eclipse</span>
+										</div>
+									</article>
+
+									<!-- Post -->
+									<article class="news-item box">
+										<div class="news-item__image-wrap overlay overlay--45">
+											<div class="news-item__date">Mai<span>2022</span></div>
+											<a class="news-item__link" target="_blank" href="https://github.com/DUT-Info-Montreuil/bArbituriQueAdventUre_final"></a>
+											<img class="cover lazyload" src="assets/img/terraria.jpg" alt="Image d'illustration de bArbituriQueAdventUre" />
+										</div>
+										<div class="news-item__caption">
+											<h2 class="title title--h4">bArbituriQueAdventUre</h2>
+											<p>
+												<b>bArbituriQueAdventUre</b> a été le premier gros projet effectué en fin de 1ère année de BUT info,
+												il s'agit d'un jeu de plateforme inspiré de Terraria.
+											</p>
+											<span class="badge badge-primary">Java</span>
+											<span class="badge badge-primary">JavaFX</span>
+											<span class="badge badge-primary">Git</span>
+											<span class="badge badge-primary">Trello</span>
+											<span class="badge badge-primary">Eclipse</span>
+										</div>
+									</article>
+								</div>
+							</div>
+
+							<!-- CONTACT -->
+							<!-- <div id="contact-tab" class="tabcontent">
+								<div class="pb-2">
+									<h1 class="title title--h1 first-title title__separate">Contact</h1>
+								</div> -->
+
+								<!-- Contact -->
+								<!-- <div class="map" id="map">
+									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d116796.76522066168!2d90.42195359999997!3d23.822193400000007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x328e8db1a2b6ea86!2sKuratoli%20Bazar!5e0!3m2!1sen!2sbd!4v1612621523718!5m2!1sen!2sbd" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+								</div>
+								<h2 class="title title--h3">Contact Form</h2>
+
+								<form id="contact-form" class="contact-form" data-toggle="validator">
+									<div class="row">
+										<div class="form-group col-12 col-md-6">
+											<input type="text" class="form-control" id="nameContact" name="nameContact"
+												placeholder="Full name" required="required" autocomplete="on"
+												oninvalid="setCustomValidity('Fill in the field')"
+												onkeyup="setCustomValidity('')">
+											<div class="help-block with-errors"></div>
+										</div>
+										<div class="form-group col-12 col-md-6">
+											<input type="email" class="form-control" id="emailContact"
+												name="emailContact" placeholder="Email address" required="required"
+												autocomplete="on" oninvalid="setCustomValidity('Email is incorrect')"
+												onkeyup="setCustomValidity('')">
+											<div class="help-block with-errors"></div>
+										</div>
+										<div class="form-group col-12 col-md-12">
+											<textarea class="textarea form-control" id="messageContact"
+												name="messageContact" placeholder="Your Message" rows="4"
+												required="required" oninvalid="setCustomValidity('Fill in the field')"
+												onkeyup="setCustomValidity('')"></textarea>
+											<div class="help-block with-errors"></div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-12 col-md-6 order-2 order-md-1 text-center text-md-left">
+											<div id="validator-contact" class="hidden"></div>
+										</div>
+										<div class="col-12 col-md-6 order-1 order-md-2 text-right">
+											<button type="submit" class="btn"><i class="font-icon icon-send"></i> Send
+												Message</button>
+										</div>
+									</div>
+								</form>
+							</div> -->
+
+							<!-- SKILLS -->
+							<div id="skills-tab" class="tabcontent">
+								<div class="pb-2">
+									<h1 class="title title--h1 first-title title__separate">Compétences</h1>
+								</div>
+								<p>Cette section est une retrospective du 5ème semestre du BUT Informatique (3ème année).</p><br>
+
+								<hr>
+
+								<h2 class="title title--h2 first-title">Compétences acquises du S1 au S5 :</h2>
+								<div>
+									<div class="timeline">
+										<!-- Skill -->
+										<article class="timeline__item">
+											<h5 class="title title--h5 timeline__title">Système</h5>
+											<p class="timeline__description">
+												À l’issue de cette expérience, Je suis capable de faire l'installation d'un poste de travail selon les besoins de l'utilisateur,
+												que ça soit du choix de la distro ou de la configuration de celle-ci, jusqu'à l'installation de tous les softwares nécessaires.
+												Je suis également capable de mettre en place des damons et des services sur un serveur Linux.
+											</p>
+										</article>
+
+										<!-- Skill -->
+										<article class="timeline__item">
+											<h5 class="title title--h5 timeline__title">Réseau</h5>
+											<p class="timeline__description">
+												À l’issue de cette expérience, Je suis capable de mettre en place un réseau de machines communicantes sur un réseau privé, sécurisé par un parefeu
+												ne laissant passer que les ports nécessaires au bon fonctionnement du réseau.
+											</p>
+										</article>
+
+										<!-- Skill -->
+										<article class="timeline__item">
+											<h5 class="title title--h5 timeline__title">Base de données</h5>
+											<p class="timeline__description">
+												À l’issue de cette expérience, Je suis capable de mettre en place une base de données relationnelle, et de l'interroger avec des requêtes SQL.
+											</p>
+										</article>
+
+										<!-- Skill -->
+										<article class="timeline__item">
+											<h5 class="title title--h5 timeline__title">Programmation</h5>
+											<p class="timeline__description">
+												À l’issue de cette expérience, Je suis capable de développer des programmes en <b>C</b> et en <b>Bash</b>,
+												et de les compiler pour les rendre exécutables. Je suis également capable de développer des applications <b>Java</b>
+												structurées avec les designs patterns optimales.
+											</p>
+											<p>
+												Cf : <a href="https://github.com/DUT-Info-Montreuil/bArbituriQueAdventUre_final">bArbituriQueAdventUre</a>
+											</p>
+										</article>
+
+										<!-- Skill -->
+										<article class="timeline__item">
+											<h5 class="title title--h5 timeline__title">Programmation Web</h5>
+											<p class="timeline__description">
+												À l’issue de cette expérience, Je suis capable de développer des applications Web en utilisant <b>HTML</b>, <b>CSS</b>, et <b>JS</b>,
+												et de les déployer sur un serveur Web. Je suis également capable de développer des applications Web dynamiques avec <b>PHP</b> et <b>MySQL</b> 
+												respecatant le modèle MVC.
+											</p>
+											<p>
+												Cf : <a href="https://github.com/DUT-Info-Montreuil/Apres_La_Pluie">Apres La Pluie</a>
+											</p>
+										</article>
+
+										<!-- Skill -->
+										<article class="timeline__item">
+											<h5 class="title title--h5 timeline__title">Qualité Dev</h5>
+											<p class="timeline__description">
+												À l’issue de cette expérience, Je suis capable de contribuer à un projet en utilisant <b>Git</b> et ses conventions,
+												et de mettre en place des tests unitaires, d'intégration et fonctionnels pour assurer la qualité du code ainsi que le bon suivi du projet.
+											</p>
+										</article>
+
+										<!-- Skill -->
+										<article class="timeline__item">
+											<h5 class="title title--h5 timeline__title">Déploiement</h5>
+											<p class="timeline__description">
+												À l’issue de cette expérience, Je suis capable de créer et publier une image <b>Docker</b>.
+												Je suis également capable d'utiliser Docker afin de déployer des services sur un serveur.
+											</p>
+										</article>
+
+										<!-- Skill -->
+										<article class="timeline__item">
+											<h5 class="title title--h5 timeline__title">Développement avancée</h5>
+											<p class="timeline__description">
+												À l’issue de cette expérience, Je suis capable de développer des applications Web en utilisant les frameworks <b>Symfony</b>, <b>Angular</b>.
+											</p>
+										</article>
+
+										<!-- Skill -->
+										<article class="timeline__item">
+											<h5 class="title title--h5 timeline__title">Expérience profesionnelle</h5>
+											
+											<p class="timeline__description">
+												Afin de valider ma 2ème année de BUT Informatique, j'ai effectué un stage de 10 semaines au sein de la DSI du groupe La Poste,
+												ce qui m'a permis de découvrir le monde de l'entreprise, et de mettre en pratique mes connaissances acquises durant ma formation.<br>
+												À l'issue de cette expérience, Je suis capable de travailler en équipe, de m'adapter à un environnement de travail, et de mener à bien un projet
+												en aassurant la communication avec les différents acteurs du projet.
+											</p>
+										</article>
+									</div>
+
+									<hr>
+
+								<h2 class="title title--h2 first-title">Compétences acquises lors de la SAE du S5 :</h2>
+								<div>
+									<p>Cf : <a href="https://github.com/DUT-Info-Montreuil/SAE-5.A-carmate">CarMate</a></p>
+
+									<div class="timeline">
+										<!-- Skill -->
+										<article class="timeline__item">
+											<h5 class="title title--h5 timeline__title">Description</h5>
+											
+											<p class="timeline__description">
+												Le projet CarMate est né sur une période de fin septembre à mi-janvier.
+												L'objectif central était de répondre aux besoins des étudiants de l'IUT de Tremblay en palliant les défis liés à l'isolement géographique.
+												CarMate s'est déployé comme une solution innovante, combinant des technologies modernes telles qu'Angular pour le front-end, 
+												Flask pour le back-end, et PostgreSQL pour la base de données.
+												Le projet a également intégré le service Nominatim pour enrichir ses fonctionnalités avec les données d'OpenStreetMap.
+											</p>
+										</article>
+
+										<!-- Skill -->
+										<article class="timeline__item">
+											<h5 class="title title--h5 timeline__title">Organisation</h5>
+											
+											<p class="timeline__description">
+												L'organisation du travail au sein de l'équipe de cinq membres s'est démarquée par une rotation de rôles lors de chaque fin de sprints, 
+												permettant à chaque membre de toucher à tous les aspects du développement. Cette approche a favorisé une compréhension globale 
+												du projet et une polyvalence dans la contribution. Les sprints, d'une durée de deux semaines, étaient ponctuées par des revues 
+												pour évaluer et ajuster l'avancement du projet. 
+												Une méthodologie agile a été adoptée, offrant une flexibilité et une réactivité aux ajustements nécessaires.
+											</p>
+										</article>
+									</div>
+								</div>
+
+								<hr>
+
+								<h2 class="title title--h2 first-title">Et pour la suite ?</h2>
+								<div>
+									<p>Ce S5 a renforcé ma motivation à explorer davantage diverses technologies optimisées en fonction des projets.
+										C'est pourquoi j'envisage de poursuivre mes études jusqu'à l'obtention du titre d'ingénieur (bac+5) pour acquérir des compétences 
+										approfondies dans le domaine du développement. Mon objectif ultime est de devenir développeur polyvalent. 
+										Je suis particulièrement enthousiaste à l'idée d'explorer et d'utiliser des frameworks 
+										modernes pour enrichir mes connaissances technologiques.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Footer -->
+					<footer class="footer">© 2024 @LiberiBg</footer>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<!-- BackToTop -->
+	<div class="back-to-top"></div>
+
+	<!-- JavaScripts -->
+	<script src="assets/js/jquery-3.4.1.min.js"></script>
+	<script src="assets/js/plugins.min.js"></script>
+	<script src="assets/js/common.js"></script>
+
+	<script>
+		if (localStorage.getItem("theme") === null) {
+			localStorage.setItem('theme', 'dark');
+		} 
+		if(localStorage.getItem('theme') === 'dark') {
+			$('head').append('<link rel="stylesheet" id="dark-mode" type="text/css" href="assets/styles/style-dark.css" />');
+		} else {
+			$('head link[href="assets/styles/style-dark.css"]').remove();
+		}
+
+		$('.light').click(function (){
+			localStorage.setItem('theme', 'light');
+			$('head link[href="assets/styles/style-dark.css"]').remove();
+		});
+
+		$('.dark').click(function (){
+			localStorage.setItem('theme', 'dark');
+			$('head').append('<link rel="stylesheet" id="dark-mode" type="text/css" href="assets/styles/style-dark.css" />');
+		});
+
+		$('[data-toggle="tooltip"]').tooltip({
+			trigger : 'hover'
+		});
+	</script>
+</body>
+
+</html>
